@@ -16,9 +16,7 @@ The first loop starts from the first row and stops at the row before the last on
 
 I define a multiplier called m:
 
-[
-m=-\frac{A_{ij}}{A_{jj}}
-]
+m = -A[i][j]/A[j][j]
 
 The numerator is the current number below the pivot, and the denominator is the pivot. The multiplier is then multiplied by the pivot row.
 
@@ -33,9 +31,9 @@ After elimination, the system has an upper-triangular form. For example, a row c
 
 which represents an equation such as:
 
-[
+
 3x_4+2x_5+x_6=b
-]
+
 
 Starting from the last row, the value of the last unknown can be calculated directly by dividing the right-hand side by its coefficient.
 
